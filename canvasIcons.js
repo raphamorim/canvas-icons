@@ -1,7 +1,11 @@
-var CanvasIcons = (function() {
-    
+var canvasIcons = (function() {   
     this.init = function() {
-        console.log("Canvas Icons");
+        this.icons = document.querySelectorAll('.canvas-icon');
+        console.log(icons);
+    };
+
+    this.draw = function() {
+
     };
 
     return {

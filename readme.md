@@ -2,6 +2,10 @@
 
 A experiment to draw icons using canvas.
 
+## What's canvas?
+
+"Added in HTML5, the HTML element can be used to draw graphics via scripting in JavaScript. For example, it can be used to draw graphs, make photo compositions, create animations or even do real-time video processing or rendering." by [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+
 ## Why?
 
 Why render items with canvas?

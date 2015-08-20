@@ -2,7 +2,6 @@ var canvasIcons = (function() {
     this.init = function() {
         this.elementList = [];
         this.getElements();
-        console.log(this.elementList)
     };
 
     this.removeRedundant = function() {
@@ -35,7 +34,8 @@ var canvasIcons = (function() {
         var itens = this.elementList;
         for (var index = 0; index < itens.length; index++) {
             // TODO: Use a createChildNode and append
-            itens[index].innerHTML = '<canvas class="' + itens[index] + '"></class>';
+            // TODO: Read width and height to draw a specificy canvas (can be setted in config?)
+            document.querySelector('.' + itens[index]).innerHTML = '<canvas class="' + itens[index] + '"></class>';
         }
     };
 

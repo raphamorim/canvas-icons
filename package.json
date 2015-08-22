@@ -1,0 +1,23 @@
+{
+  "name": "canvas-icons",
+  "version": "0.9.0",
+  "description": "A experiment to draw icons using canvas.",
+  "main": "canvasIcons.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel canvasIcons.js --watch --out-file canvasIcons.es6.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphamorim/canvas-icons.git"
+  },
+  "author": "Raphael Amorim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphamorim/canvas-icons/issues"
+  },
+  "homepage": "https://github.com/raphamorim/canvas-icons#readme",
+  "dependencies": {
+    "babel": "^5.8.21"
+  }
+}

@@ -1,5 +1,7 @@
 # Canvas Icons
 
+![canvas-icons](https://raw.githubusercontent.com/raphamorim/canvas-icons/master/images/canvas-icons-square.png)
+
 A experiment to draw icons using canvas.
 
 ## What's canvas?
